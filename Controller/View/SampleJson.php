@@ -17,9 +17,7 @@ class SampleJson implements HttpGetActionInterface
         $this->jsonFactory = $jsonFactory;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     public function execute()
     {
         $result = $this->jsonFactory->create();

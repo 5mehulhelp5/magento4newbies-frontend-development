@@ -9,11 +9,8 @@ class Sample implements HttpGetActionInterface
 {
     protected PageFactory $pageFactory;
 
-    /**
-     * @param PageFactory $pageFactory
-     */
     public function __construct(
-        PageFactory $pageFactory
+        PageFactory $pageFactory,
     ) {
         $this->pageFactory = $pageFactory;
     }
